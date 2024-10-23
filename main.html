@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Spotify - Reproductor web</title>
+    <link rel="icon" href="img/favicon/favicon.ico" type="image/png" />
+</head>
+
+<body>
+    <aside>
+        <div>
+            <a href="index.html"><img src="img/logo/logo.svg" alt="logo" title="logo" /></a>
+            <nav>
+                <ul>
+                    <li class="bo50" id="inici"><img src="img/side/home.svg" title="home" alt="home" /><a
+                            href="#main">Inici</a>
+                    </li>
+                    <li><img src="img/side/search.svg" title="cerca" alt="cerca" /><a href="#main">Cerca</a></li>
+                    <li><img src="img/side/library.svg" title="biblioteca" alt="biblioteca" /><a
+                            href="#main">Biblioteca</a>
+                    </li>
+                    <li><img src="img/side/add.svg" title="crear" alt="crear" /><a href="#main">Crea llista</a></li>
+                </ul>
+            </nav>
+            <hr />
+        </div>
+    </aside>
+    <main id="main">
+        <header>
+            <form class="hybrid row">
+                <input type="text" id="cerca" name="cerca" placeholder="Artistes, cançons o podcasts" class="w30" />
+                <label>Selene Alarcón Cañamero</label>
+            </form>
+        </header>
+        <section id="recomendacions">
+            <h2>Programes que potser t’agraden</h2>
+            <div class="hybrid row">
+                <article class="w25">
+                    <div class="inner" id="PBunquer">
+                        <div class="text">
+                            <h3>El búnquer</h3>
+                            <p>Catalunya Ràdio</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="w25">
+                    <div class="inner" id="PChicle">
+                        <div class="text">
+                            <h3>Estirando el chicle</h3>
+                            <p>Podium Podcast</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="w25">
+                    <div class="inner" id="PRuina">
+                        <div class="text">
+                            <h3>La Ruina</h3>
+                            <p>La Ruina</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="w25">
+                    <div class="inner" id="PBuenisimo">
+                        <div class="text">
+                            <h3>Buenisimo bien</h3>
+                            <p>SER Podcast</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="w25" id="tiempo">
+                    <div class="inner" id="PTiempo">
+                        <div class="text">
+                            <h3>Cualquier tiempo pasado fue anterior</h3>
+                            <p>SER Podcast</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="w25" id="nadie">
+                    <div class="inner" id="PNadie">
+                        <div class="text">
+                            <h3>Nadie sabe nada</h3>
+                            <p>SER Podcast</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="w25" id="deforme">
+                    <div class="inner" id="PDeforme">
+                        <div class="text">
+                            <h3>Deforme semanal ideal total</h3>
+                            <p>Radio Primavera Sound</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="w25" id="ciencia">
+                    <div class="inner" id="PCiencia">
+                        <div class="text">
+                            <h3>La ciencia pop</h3>
+                            <p>Gabriel León</p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section class="peratu">
+            <h2>Fet per a tu</h2>
+            <p>Com més escoltis, millors seran les recomanacions</p>
+            <div class="hybrid row">
+                <article class="w20">
+                    <a href="albums/ancient.html">
+                        <div class="inner">
+                            <img src="img/albums/album01.jpg" alt="Ancient dreams in modern land - MARINA"
+                                title="Ancient dreams in modern land - MARINA" />
+                            <h3>Ancient dreams in modern land</h3>
+                            <p>MARINA</p>
+                        </div>
+                    </a>
+                </article>
+
+                <article class="w20">
+                    <div class="inner">
+                        <img src="img/albums/album02.jpg" alt="Future Nostalgia - Dua Lipa"
+                            title="Future Nostalgia - Dua Lipa" />
+                        <h3>Future Nostalgia (Moonlight Edition)</h3>
+                        <p>Dua Lipa</p>
+                    </div>
+                </article>
+                <article class="w20">
+                    <div class="inner">
+                        <img src="img/albums/album03.jpg" alt="Kings Disease II - Nas" title="Kings Disease II - Nas" />
+                        <h3>Kings Disease II</h3>
+                        <p>Nas</p>
+                    </div>
+                </article>
+                <article class="w20">
+                    <div class="inner">
+                        <img src="img/albums/album04.jpg" alt="The Album - BLACKPINK" title="The Album - BLACKPINK" />
+                        <h3>The Album</h3>
+                        <p>BLACKPINK</p>
+                    </div>
+                </article>
+                <article class="w20" id="olivia">
+                    <div class="inner">
+                        <img src="img/albums/album05.jpg" alt="SOUR - Olivía Rodrigo" title="SOUR - Olivía Rodrigo" />
+                        <h3>SOUR</h3>
+                        <p>Olivía Rodrigo</p>
+                    </div>
+                </article>
+                <article class="w20" id="billie">
+                    <div class="inner">
+                        <img src="img/albums/album06.jpg" alt="Happier than ever - Billie Eilish"
+                            title="Happier than ever - Billie Eilish" />
+                        <h3>Happier than ever</h3>
+                        <p>Billie Eillish</p>
+                    </div>
+                </article>
+                <article class="w20" id="gaga">
+                    <div class="inner">
+                        <img src="img/albums/album07.jpg" title="Chromática - Lady Gaga" />
+                        <h3>Chromática</h3>
+                        <p>Lady Gaga</p>
+                    </div>
+                </article>
+                <article class="w20" id="weeknd">
+                    <div class="inner">
+                        <img src="img/albums/album08.jpg" alt="After Hours - The Weeknd"
+                            title="After Hours - The Weeknd" />
+                        <h3>After Hours</h3>
+                        <p>The Weeknd</p>
+                    </div>
+                </article>
+                <article class="w20" id="bts">
+                    <div class="inner">
+                        <img src="img/albums/album09.jpg" alt="BE - BTS" title="BE - BTS" />
+                        <h3>BE</h3>
+                        <p>BTS.</p>
+                    </div>
+                </article>
+                <article class="w20" id="miley">
+                    <div class="inner">
+                        <img src="img/albums/album10.jpg" alt="Plastic Hearts - Miley Cyrus"
+                            title="Plastic Hearts - Miley Cyrus" />
+                        <h3>Plastic Hearts</h3>
+                        <p>Miley Cyrus</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <footer class="fixed">
+            <div class="m0a row">
+                <div id="marina" class="row w33">
+                    <img src="img/albums/album01.jpg" title="Ancient dreams in modern land - MARINA"
+                        alt="Ancient dreams in modern land - MARINA" class="w10" />
+                    <div id="h">
+                        <h4>Venus Fly Trap</h4>
+                        <p>MARINA</p>
+                    </div>
+                    <img src="img/player/like.svg" title="like" alt="like" class="o50 wp15" />
+                </div>
+                <div id="play" class="w33">
+                    <img src="img/player/previous.svg" title="previous" alt="previous" class="o50 wp15" />
+                    <img src="img/player/play.svg" title="play" alt="play" class="w7" />
+                    <img src="img/player/next.svg" title="next" alt="netx" class="o50 wp15" />
+                </div>
+                <div class="w33 r">
+                    <img src="img/player/mute.svg" title="mute" alt="mute" class="o50 wp15" />
+                </div>
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>

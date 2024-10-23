@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Spotify</title>
+    <link rel="icon" href="img/favicon/favicon.ico" type="image/png" />
+</head>
+
+<body>
+    <header>
+        <div class="hybrid m0a row">
+            <a href="index.html"><img src="img/logo/logo.svg" alt="logo" title="logo" /></a>
+            <nav>
+                <ul>
+                    <li><a href="#slide">Entra</a></li>
+                    <li><a href="#premium">Per què Premium?</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main id="index">
+        <section id="slide">
+            <div class="hybrid m0a">
+                <h1>Entra a Spotify</h1>
+                <p>Reprodueix milions de cançons sense anuncis, sota demanda i offline.</p>
+                <form method="post" action="main.html">
+                    <input type="text" id="usuari" name="usuari" placeholder="NOM USUARI" class="w20" required />
+                    <input type="password" id="constrasenya" name="contrasenya" placeholder="CONTRASENYA" class="w20"
+                        required />
+                    <br />
+                    <input type="submit" value="entra" class="w20" />
+                </form>
+            </div>
+        </section>
+        <section id="premium">
+            <h1>Per què Premium</h1>
+            <div class="hybrid m0a row">
+                <article class="w25">
+                    <div class="inner">
+                        <img src="img/whypremium/premium01.png" alt="Descarrega música" title="Descarrega música" />
+                        <h3>Descarrega música</h3>
+                        <p>Escolta-la allà on vulguis</p>
+                    </div>
+                </article>
+                <article class="w25">
+                    <div class="inner">
+                        <img src="img/whypremium/premium02.png" alt="Sense anuncis" title="Sense anuncis" />
+                        <h3>Sense anuncis</h3>
+                        <p>Gaudeix de música sense interrupcions.</p>
+                    </div>
+                </article>
+                <article class="w25">
+                    <div class="inner">
+                        <img src="img/whypremium/premium03.png" alt="Reprodueix qualsevol canço"
+                            title="Reprodueix qualsevol canço" />
+                        <h3>Reprodueix qualsevol cançó</h3>
+                        <p>Fins i tot al mòbil.</p>
+                    </div>
+                </article>
+                <article class="w25">
+                    <div class="inner">
+                        <img src="img/whypremium/premium04.png" alt="Sense límit de salts"
+                            title="Sense límit de salts" />
+                        <h3>Sense límit de salts</h3>
+                        <p>Només prem següent.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <footer>
+            <div class="hybrid m0a">
+                <div class="row">
+                    <a href="index.html"><img src="img/logo/logo.svg" alt="logo" title="logo" /></a>
+                    <div>
+                        <a href="https://www.instagram.com/spotify/" id="instagram"></a>
+                    </div>
+                </div>
+                <hr />
+                <div class="row">
+                    <p>©️ 2021 - Spotify</p>
+                    <p>Selene Alarcón Cañamero</p>
+                </div>
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>
